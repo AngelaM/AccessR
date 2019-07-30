@@ -1,0 +1,40 @@
+{% extends 'layout.html' %}
+{% block content %}
+
+		<div class="row justify-content-center">
+		<div class="col-6 content-section">
+		<form method="POST" action="">
+			{{ form.hidden_tag() }}
+			<fieldset class="form-group">
+				<legend class="border-bottom mb-4 text-center">Connect to Robot
+				</legend>
+				<div class="form-group">
+					{{ form.robot_reference.label(class="form-control-label") }}
+					{% if form.robot_reference.errors %}
+						{{ form.robot_reference(class="form-control form-control-lg is-invalid") }}
+						<div class="invalid-feedback">
+							{% for error in form.robot_reference.errors %}
+								<span>{{ error }}</span>
+							{% endfor %}
+					{% else %}
+						{{ form.robot_reference(class="form-control form-control-lg") }}
+					{% endif %}
+				</div>
+			</fieldset>
+			<div class="form-group">
+					{{ form.submit(class="btn btn-outline-info") }}
+			</div>
+		</form>
+		</div>
+		</div>
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-6">
+				<div class="row justify-content-end">
+				<button id="interact">INTERACT<i class="fa fa-angle-double-right button-fa"></i></button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+{% endblock %}

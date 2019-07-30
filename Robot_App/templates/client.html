@@ -1,0 +1,38 @@
+{% extends 'layout.html' %}
+{% block content %}
+
+    <div class="container-fluid">
+      <div class="row">
+
+        <nav class="col-sm-3 col-md-2 hidden-xs-down bg-faded sidebar">
+          <ul class="nav nav-pills flex-column">
+            <li class="nav-item">
+              <p>Interactions list</p>
+            </li>
+          </ul>
+        </nav>
+
+        <main class="col-sm-9 offset-sm-3 col-md-10 offset-md-2 pt-3">
+          <h2>Interaction Details</h2>
+          <div class="table-responsive">
+            <table class="table table-striped">
+              <thead>
+                <tr>
+                  <th>Interaction</th>
+                  <th></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Database Field</td>
+                  <td>Sample Item</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </main>
+        
+      </div>
+    </div>
+
+{% endblock %}

@@ -1,0 +1,116 @@
+:root {
+    --primary: #355d96;
+    --secondary: #1dffff;
+    --secondary-light: #f0ffff;
+    --alt-background: #d9e3f1;
+    --accent: #1dff91;
+    --dark: #0c1221;
+    --light: #f5f7fb;
+}
+
+body {
+  background: #f7ffff;
+  color: var(--dark);
+  margin-top: 5rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--primary);
+}
+
+legend {
+  color: var(--primary);
+}
+
+#interact {
+  background-color: var(--primary);
+  color: white;
+}
+
+#interact i {
+  color: white;
+}
+
+#submit {
+  background-color: var(--primary);
+  color: white;
+}
+
+#submit:hover {
+  background-color: var(--accent);
+  color: var(--primary);
+}
+
+.button-fa {
+  margin: 20px;
+}
+
+.bg-steel {
+  background-color: var(--primary);
+}
+
+.site-header .navbar-nav .nav-link {
+  color: var(--light);
+}
+
+.site-header .navbar-nav .nav-link:hover {
+  color: var(--accent);
+}
+
+.site-header .navbar-nav .nav-link.active {
+  font-weight: white;
+}
+
+.content-section {
+  background: #f7ffff;
+  padding: 10px 20px;
+  border: 5px solid var(--primary);
+  border-radius: 3px;
+  margin-bottom: 20px;
+}
+
+.account-img {
+  height: 125px;
+  width: 125px;
+  margin-right: 20px;
+  margin-bottom: 16px;
+}
+
+.account-heading {
+  font-size: 2.5rem;
+}
+
+.interact {
+  min-height: 50vh;
+}
+
+.interact-controls .card-head {
+  background-color: var(--secondary);
+  padding: 20px;
+}
+
+.interact-controls .card-head i {
+  color: var(--primary);
+}
+
+.interact-controls .card-body {
+  background-color: var(--primary);
+  padding: 0px;
+}
+
+.interact-controls h2{
+  color: var(--light);
+}
+
+.user-choices .card-body {
+  height: 200px;
+  background-color: var(--primary);
+}
+
+.user-choices h5 {
+  color: white;
+}
+
+.alert-success {
+  background: var(--accent);
+}

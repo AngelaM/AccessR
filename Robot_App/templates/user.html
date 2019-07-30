@@ -1,0 +1,33 @@
+{% extends 'layout.html' %}
+{% block content %}
+
+    <div class="container">
+      <div class="row justify-content-center interact">
+		  <div class="col-sm-4 align-self-center">
+			<a href="{{ url_for('home')}}">
+				<div class="card text-center user-choices" style="width: 18rem;">
+			  <div class="card-body">
+			    <h5 class="card-title">Client List</h5>
+			  </div>
+			</div></a>
+		  </div>
+		  <div class="col-sm-4 align-self-center">
+			<a href="{{ url_for('home')}}">
+				<div class="card text-center user-choices" style="width: 18rem;">
+			  <div class="card-body">
+			    <h5 class="card-title">Connect Robot</h5>
+			  </div>
+			</div></a>
+		  </div>
+		  <div class="col-sm-4 align-self-center">
+			<a href="{{ url_for('home')}}">
+				<div class="card text-center user-choices" style="width: 18rem;">
+			  <div class="card-body">
+			    <h5 class="card-title">Define Interaction</h5>
+			  </div>
+			</div></a>
+		  </div>
+      </div>
+  </div>
+
+{% endblock %}

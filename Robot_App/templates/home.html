@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Bootstrap and Font Awesome-->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+	<!-- Custom CSS -->
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='home.css') }}">
+
+	<title>Music Robots</title>
+</head>	
+
+<body>
+	<header>
+
+		<!--Navbar-->
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+		  <div class="container">
+		    <a class="navbar-brand" href="#">AccessR (logo)</a>
+		    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
+		      aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+		      <span class="navbar-toggler-icon"></span>
+		    </button>
+		    <div class="collapse navbar-collapse" id="basicExampleNav">
+		      <ul class="navbar-nav mr-auto">
+		      </ul>
+		      <form class="form-inline">
+		        <ul class="navbar-nav mr-auto">
+		        <li class="nav-item">
+		          <a class="nav-link" href="#about">About</a>
+		        </li>
+		        <li class="nav-item">
+		          <a class="nav-link" href="#team">Team</a>
+		        </li>
+		        <li class="nav-item">
+		          <a class="nav-link" href="#news">News</a>
+		        </li>
+		        <li class="nav-item">
+		          <a class="nav-link" href="#contact">Contact</a>
+		        </li>	
+		        <li class="nav-item active">
+		          <a class="nav-link" href="user/login">Login
+		            <span class="sr-only">(current)</span>
+		          </a>
+		      	</li>
+		  		</ul>
+		      </form>
+		    </div>
+		  </div>
+		</nav>
+
+		<!-- Full Page Image/Text -->
+		<div id="intro" class="view">
+	        <div class="container-fluid d-flex align-items-center justify-content-center h-100">
+	            <div class="row d-flex justify-content-center text-center">
+	                <div>
+	                    <h2 class="display-4 font-weight-bold grow">Mahri</h2>
+	                    <hr class="hr-light">
+	                    <h3 class="text-white">Improving music therapy for all.</h3>
+	                    <a class="btn btn-primary grow" href="#about">Find Out More</i></a>
+	                </div>
+	            </div>
+	        </div>
+		</div>
+	</header>
+
+<main class="mt-5">
+        <!--About Section-->
+		<section id="about" class="text-center">
+		  <h2 class="mb-5 font-weight-bold">About</h2>
+
+		  <div class="row d-flex justify-content-center mb-4">
+		      <div class="col-md-8">
+		          <p class="text-grey">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi voluptate hic provident nulla repellat
+		              facere esse molestiae ipsa labore porro minima quam quaerat rem, natus repudiandae debitis est
+		              sit pariatur.</p>
+		      </div>
+		  </div>
+		<br>
+		  <div class="row">
+		      <div class="col-md-4 mb-1">
+		          <i class="fa fa-headphones fa-3x show-on-scroll"></i>
+		          <h4 class="my-4">Topic 1</h4>
+		          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam, aperiam minima
+		              assumenda deleniti hic.</p>
+		      </div>
+
+		      <div class="col-md-4 mb-1">
+		          <i class="fa fa-heart fa-3x show-on-scroll"></i>
+		          <h4 class="my-4">Topic 2</h4>
+		          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam, aperiam minima
+		              assumenda deleniti hic.</p>
+		      </div>
+
+		      <div class="col-md-4 mb-1">
+		          <i class="fa fa-music fa-3x show-on-scroll"></i>
+		          <h4 class="my-4">Topic 3</h4>
+		          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam, aperiam minima
+		              assumenda deleniti hic.</p>
+		      </div>
+		  </div>
+		</section>
+
+        <!-- Team Section -->
+		<section id="team" class="text-center">
+			<h2 class="mb-5 font-weight-bold">Team</h2>
+
+		  <div class="row">
+		    <div class="col-lg-3 col-md-12 mb-4">
+
+		      <div class="view overlay z-depth-1-half">
+		        <img class="show-on-scroll team" src="static/baby.jpg" class="img-fluid profile">
+		        <a href="#!">
+		          <div class="mask rgba-white-slight"></div>
+		        </a>
+		      </div>
+		      <h4 class="my-4 font-weight-bold">Person 1</h4>
+		      <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam,
+		        aperiam minima
+		        assumenda deleniti hic.</p>
+		    </div>
+
+		    <div class="col-lg-3 col-md-6 mb-4">
+		      <div class="view overlay z-depth-1-half">
+		        <img class="show-on-scroll team" src="static/baby.jpg" class="img-fluid">
+		        <a href="#!">
+		          <div class="mask rgba-white-slight"></div>
+		        </a>
+		      </div>
+		      <h4 class="my-4 font-weight-bold">Person 2</h4>
+		      <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam,
+		        aperiam minima
+		        assumenda deleniti hic.</p>
+		    </div>
+
+		    <div class="col-lg-3 col-md-6 mb-4">
+		      <div class="view overlay z-depth-1-half">
+		        <img class="show-on-scroll team" src="static/baby.jpg" class="img-fluid">
+		        <a href="#!">
+		          <div class="mask rgba-white-slight"></div>
+		        </a>
+		      </div>
+		      <h4 class="my-4 font-weight-bold">Person 3</h4>
+		      <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam,
+		        aperiam minima
+		        assumenda deleniti hic.</p>
+		    </div>
+
+		    <div class="col-lg-3 col-md-6 mb-4">
+		      <div class="view overlay z-depth-1-half">
+		        <img class="show-on-scroll team" src="static/baby.jpg" class="img-fluid">
+		        <a href="#!">
+		          <div class="mask rgba-white-slight"></div>
+		        </a>
+		      </div>
+		      <h4 class="my-4 font-weight-bold">Person 4</h4>
+		      <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam,
+		        aperiam minima
+		        assumenda deleniti hic.</p>
+		    </div>
+		  </div>
+		</section>
+
+		<!--Parallax Image-->
+        <div class="parallax"></div>
+
+        <!-- News Section -->
+        <section id="news" class="text-center">
+			<h2 class="mb-5 font-weight-bold">News</h2>
+
+			<div class="row">
+				<div class="col-lg-4 col-md-6 mb-6">
+					<div class="view overlay z-depth-1-half">
+						<img class="show-on-scroll news" src="static/listening.jpeg" class="img-fluid">
+					</div>
+				</div>
+				<div class="col-lg-8 col-md-6 mb-6 text-center">
+					<h4 class="my-4">Headline Here</h4>
+					<p class="lead">Insert lots of news about company here. Insert lots of news about company here. Insert lots of news about company here. Insert lots of news about company here. Insert lots of news about company here. Insert lots of news about company here. Insert lots of news about company here. Insert lots of news about company here. Insert lots of news about company here. Insert lots of news about company here. Insert lots of news about company here. Insert lots of news about company here. </p>
+				</div>
+			</div>
+        </section>
+</main>
+
+<!-- Contact (Footer) -->
+	<footer id="contact" class="container-fluid text-center">
+		<h2 class="mb-5 font-weight-bold">Contact</h2>
+		<div class="row">
+			<div class="col-sm-6">
+				<h3>AccessR</h3>
+				<hr>
+				<h4>Email address</h4>
+				<br>
+			</div>
+			<div class="col-sm-6">
+				<h3>Connect with us</h3>
+				<hr>
+				<a href="#" class="fa fa-facebook"></a>
+				<a href="#" class="fa fa-twitter"></a>
+				<a href="#" class="fa fa-linkedin"></a>
+				<a href="#" class="fa fa-youtube"></a>
+			</div>
+		</div>
+	</footer>
+
+	<!--Bootstrap JavaScript-->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+	<!--Sticky colored scroll bar-->
+	<script>
+		$(window).scroll(function(){
+			$('nav').toggleClass('scrolled', $(this).scrollTop() > 650);
+		});
+	</script>
+
+	<!-- Animations -->
+	<script>
+		var scroll = window.requestAnimationFrame ||
+            function(callback){ window.setTimeout(callback, 1000/60)};
+        var elementsToShow = document.querySelectorAll('.show-on-scroll');
+        function loop() {
+
+		elementsToShow.forEach(function (element) {
+		    if (isElementInViewport(element)) {
+		      element.classList.add('is-visible');
+		    } else {
+		      element.classList.remove('is-visible');
+		    }
+		  });
+
+		  scroll(loop);
+		}
+		loop();
+		function isElementInViewport(el) {
+		  if (typeof jQuery === "function" && el instanceof jQuery) {
+		    el = el[0];
+		  }
+		  var rect = el.getBoundingClientRect();
+		  return (
+		    (rect.top <= 0
+		      && rect.bottom >= 0)
+		    ||
+		    (rect.bottom >= (window.innerHeight || document.documentElement.clientHeight) &&
+		      rect.top <= (window.innerHeight || document.documentElement.clientHeight))
+		    ||
+		    (rect.top >= 0 &&
+		      rect.bottom <= (window.innerHeight || document.documentElement.clientHeight))
+		  );
+		}
+
+	</script>
+
+</body>
+</html>
